@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  background-color: #f4f4f4;
+  color: #134074;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 5px 10px;
+  color: #eef4ed;
+  background-color: #8da9c4;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 300px;
+  width: 500px;
+}
+
+/* Media query pour les écrans de largeur supérieure à 540px */
+@media (min-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+/* Media query pour les écrans de largeur supérieure à 720px */
+@media (min-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+/* Media query pour les écrans de largeur supérieure à 960px */
+@media (min-width: 960px) {
+  .container {
+    width: 700px;
+    max-width: 1200px;
+  }
+}
